@@ -18,11 +18,7 @@
         </dependency>
     </dependencies>
 
-
-    <profiles>
-        <profile>
-            <id>ci</id>
-            <build>
+ <build>
                 <plugins>
                     <plugin>
                         <groupId>org.jacoco</groupId>
@@ -58,7 +54,9 @@
                     </plugin>
                 </plugins>
             </build>
-        </profile>
+         
+    <profiles>
+
               <profile>
             <id>coveralls</id>
             <activation>
