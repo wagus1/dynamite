@@ -1,1 +1,1 @@
-script: mvn clean install -P ci 
+script: mvn clean install -P coveralls
