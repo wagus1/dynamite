@@ -1,1 +1,4 @@
 script: mvn clean install -P coveralls
+matrix:
+  include:
+  - env: JACOCO=true
